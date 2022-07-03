@@ -4,9 +4,26 @@ There are 500 million people infected with Covid-19 worldwide, and the current t
 
 
 ## Hardware/Software Setup
+### Hardware
+
+### S
+
+
+
 ## User Manual
 ### Sensor
 ![user manual](https://github.com/heyibon/heyibon/blob/main/user%20manual.png)
 ### Cloud
+
+result will be directly uploaded to cloud and be displayed on screen
+
 <img src="https://github.com/heyibon/heyibon/blob/main/cloud1.png" width="600" height="300">
+
+server side will receive user details including:
+- ID
+- Name
+- Diagnose
+- Time
+- Location
+
 <img src="https://github.com/heyibon/heyibon/blob/main/cloud2.png" width="600" height="250">
