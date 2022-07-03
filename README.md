@@ -6,7 +6,7 @@ There are 500 million people infected with Covid-19 worldwide, and the current t
 ## Hardware/Software Setup
 ### Hardware
 
-### S
+### Software
 
 
 
