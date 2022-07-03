@@ -5,17 +5,19 @@ There are 500 million people infected with Covid-19 worldwide, and the current t
 
 ## Hardware/Software Setup
 ### Hardware
-- we use **BMD 101** as our ECG senser, data collected by the sensor will be transmitted to **raspberry pi** by **bluetooth**.  
+- **BMD 101** is used as our ECG senser, data collected by the sensor will be transmitted to **raspberry pi** by **bluetooth**.  
 - **raspberry pi** will preprocess the data for our model and send it to **ARC EM9D AIoT DK** by **Uart**.  
-- **ARC EM9D AIoT DK** will generate prediction from the data and send the result back to **raspberry pi** and upload it to **cloud**  
+- **ARC EM9D AIoT DK** will generate prediction from the data and send the result back to **raspberry pi** by **Uart** and upload it to **cloud**  
 - **Touch sensor** is used as a start button, connected to **raspberry pi** by **GPIO**
 - **LED Bar** is used as a progress bar for data collection, connected to **raspberry pi** by **GPIO**
 
 
 ![hardware](https://github.com/heyibon/heyibon/blob/main/hardware.png)
 ### Software
-
-
+#### COVID-19 Model
+![hardware](https://github.com/heyibon/heyibon/blob/main/covid%20model.png)
+#### Identification Model
+![hardware](https://github.com/heyibon/heyibon/blob/main/identity%20model.png)
 
 ## User Manual
 ### Sensor
